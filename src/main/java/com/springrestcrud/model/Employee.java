@@ -34,7 +34,6 @@ public class Employee {
 	@NotBlank
 	private String expertise;
 	
-	@NotBlank
 	@Temporal(TemporalType.TIMESTAMP)
 	@LastModifiedDate
 	private Date createdAt;
